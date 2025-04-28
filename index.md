@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 permalink: /
-title: Home
+title: About
 longtitle: Explaining Vision and Language Models — A Concept-Based Approach
 subtitle: Tutorial @ ECAI 2025
 layout: home
