@@ -5,6 +5,7 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col">
+	  {%- if site.provide_feed %}
         <p class="feed-subscribe">
           <a href="{{ 'feed.xml' | relative_url }}">
             <svg class="svg-icon orange">
@@ -12,6 +13,10 @@
             </svg><span>Subscribe</span>
           </a>
         </p>
+	  {%- endif %}
+	  {% if site.last_updated %}
+        Last updated: {{ "now" | date: '%B %d, %Y' }}.
+      {% endif %}
       {%- if site.author %}
         <ul class="contact-list">
           {% if site.author.name -%}
@@ -21,20 +26,15 @@
             <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
           {%- endif %}
         </ul>
-      {%- endif %}
+	  {%- endif %}
+	  <p><a href="https://github.com/{{ github_username }}">{{ github_username }}</a></p>
       </div>
       <div class="footer-col">
         <p>{{ site.description | escape }}</p>
         <p>{{ site.attribution }}</p>
-        {% if site.last_updated %}
-        Last updated: {{ "now" | date: '%B %d, %Y' }}.
-        {% endif %}
       </div>
     </div>
 
-    <div class="social-links">
-      {%- include social.html -%}
-    </div>
 
   </div>
 
