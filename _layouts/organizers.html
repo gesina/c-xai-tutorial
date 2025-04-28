@@ -50,11 +50,11 @@ layout: default
 							<br>
 						{% if organizer.orcid %}
 							<a href="https://orcid.org/{{ organizer.orcid }}" aria-label="View ORCID record">
-<img src="/assets/img/orcid-icon.svg" alt="ORCID iD" style="height: 1.5eM;"/></a>
+<img src="{{ 'orcid-icon.svg' | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="ORCID iD" style="height: 1.5eM;"/></a>
 						{% endif %}	
 						{% if organizer.googlescholarlink %}
 							<a href="{{ organizer.googlescholarlink }}" aria-label="Google Scholar Profile">
-<img src="/assets/img/google-scholar-icon.png" alt="Google Scholar" style="height: 1.5eM;"/></a>
+<img src="{{ 'google-scholar-icon.png' | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" alt="Google Scholar" style="height: 1.5eM;"/></a>
 						{% endif %}							<!-- Actual content of the personal description -->	
 						<td style="border: none;">
 						   {{ organizer.content }}

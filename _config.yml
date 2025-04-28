@@ -21,18 +21,18 @@
 title: Concept-bases XAI Tutorial
 email: gesina.schwalbe@uni-luebeck.de
 description: >- # this means to ignore newlines until "baseurl:"
-  Webpage of the tutorial
-  Explaining Vision and Language Models: A Concept-Based Approach
-  at ECAI 2025
+  Webpage of the tutorial Explaining Vision and Language Models: A Concept-Based Approach at ECAI 2025
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+domain: gesina.github.io        # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://gesina.github.io   # the base hostname and protocol for your site, e.g. http://example.com
+baseurl: /c-xai-tutorial        # place folder name if the site is served in a subfolder
+
 github_username:  gesina
 
 # Build settings
 theme: minima
 plugins:
-  - jekyll-feed
+#  - jekyll-feed
   - jekyll-seo-tag
 
 markdown: kramdown
