@@ -32,10 +32,7 @@ Hamburg, Germany. His research interest is in building robust multimodal languag
 generalize to new tasks while retaining previously learned knowledge, where XAI techniques are
 used to improve robustness. To pursue this XAI research, he was awarded with a funding from
 the [German Research Foundation (title: Lifelong Multimodal Language Learning by Explaining
-and Exploiting Compositional Knowledge)](https://gepris.dfg.de/gepris/projekt/551629603?language=en), which starts mid-2025. In recent years, he has
-given lectures on [transformers](https://jaeheelee.gitlab.io/transformers_2024.pdf) and [large language models (LLMs)](https://jaeheelee.gitlab.io/llms_2024.pdf) that include mechanistic
-interpretability and has been leading a [reading group on XAI and
-LLMs](https://jaeheelee.gitlab.io/index.html#rg).
+and Exploiting Compositional Knowledge)](https://gepris.dfg.de/gepris/projekt/551629603?language=en), which starts mid-2025.
 Previously, he was a postdoc at Cardiff University,
 the University of Technology Sydney, and the Australian National University.
 He obtained his PhD and Diplom degree from the University of Bremen, Germany.
