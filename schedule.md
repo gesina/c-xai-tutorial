@@ -10,22 +10,22 @@ The tutorial is split into two 90 minute sessions with a break
 inbetween.
 
 Session 1:
-- (5min) Welcome
+- Welcome
 - **Introduction to XAI**
-  - (20min) Background
-  - (30min) Overview over XAI approaches
-- **Practical Session**
-  - (5min) Discussion: 
-  - (30min) II.1 Hands-on
+  - Background
+  - Overview over XAI approaches
+- **Deep dive: C-XAI for Computer Vision**
+- **Practical Session - Part (I)**
+  - Hands-on exploring C-XAI techniques
 
 -----
 
 Session 2:
-- **Deep Dive**
-  - (30min) Deep dive: C-XAI (for verification of CV)
-  - (30min) Deep dive: LLM explanations
-- (10min) **Outlook**
-- (5min) Conclusion
+- **Practical Session - Part (II)**
+- **Deep dive: C-XAI for explaining LLMs**
+- **Outlook**
+- **Open Discussion**
+- Conclusion
 
 
 ## Some Details
