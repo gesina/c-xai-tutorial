@@ -54,9 +54,9 @@ DNNs which can help to find out biases.
 This knowledge is deepened by a practical exercise part that aims to transfer the provided guidelines to real-world problems.
 
 ## Organizational
-The tutorial will take place as part of the [European Conference on Artificial Intelligence 2025 (ECAI2025)](https://ecai2025.eu), Oct 26 (afternoon), 2025, Bologna, Italy.
+The tutorial will take place as part of the [European Conference on Artificial Intelligence 2025 (ECAI2025)](https://ecai2025.eu), Oct 26, 2025, Bologna, Italy.
 
-- **When:** *exact date tba* (within Oct 25—30, 2025) <!-- TODO-->
+- **When:** Oct 26 (afternoon), 2025
 - **Where:** Bologna, Italy. Check out the [ECAI2025 venues](https://ecai2025.org/venues/).
 - **Format:** half-day tutorial at ECAI2025 both with lecture and practical parts.
 - **Target audience**: We target both **researchers and practitioners** seeking to integrate explainability into their work.
